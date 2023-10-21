@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to right,#01022d,black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-image: linear-gradient(to right,#01022de5,#0000007e),
+    url(download.webp)
+    ;
+    width: 77%;
+    height: 640px;
+    
+}
+.container:hover{
+    background-image: linear-gradient(to right,#01022de5,transparent),
+    url(download.webp);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+.logo{
+    font-size: 80px;
+    
+}
+.nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a{
+    font-size: 20px;
+    border-bottom: 1px solid transparent;
+}
+.nav a:hover{
+    border-bottom-color: white;
+
+}
+.content{
+    width: 40%;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+}
+.content h3{
+    font-size: 50px;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.content button{
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.content button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
